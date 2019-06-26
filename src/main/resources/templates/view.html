@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Title</title>
+</head>
+<body>
+    <h3 >Welcome to springboot</h3>
+    <div>
+        <p><strong>ID:</strong><span id="id" th:text="${person.id}"></span></p>
+        <p><strong>Name:</strong><span id="id" th:text="${person.name}"></span></p>
+    </div>
+
+    <div>
+        <!-- <a  th:href="@{'/users/delete/' + ${userModel.user.id} }">删除</a>
+        <a  th:href="@{'/users/modify/' + ${userModel.user.id} }">修改</a> -->
+    </div>
+
+
+</body>
+</html>
